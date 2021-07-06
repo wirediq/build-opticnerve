@@ -1,0 +1,12 @@
+This repo contains all the necessary components to create an image of a bootable Ubuntu 18.04 install with Optic Nerve running.  It will include all patches made by WiredIQ, to be applied after Ubuntu & ZoneMinder are installed. This script was made on Pop_OS & runs anywhere apt does.
+
+# TODO
+- db dump for Optic Nerve & mysql -u root -p zm<zmdb.sql
+- account lockout
+- account lockout report
+- Rename ZoneMinder OpticNerve with find & sed
+- Optic Nerve theme
+- 
+
+# BUGS
+- ethernet @ 100mbit & not auto-starting, this is related to it being a diff name on qemu
