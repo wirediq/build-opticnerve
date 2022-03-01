@@ -6,7 +6,6 @@ Build OpticNerve VM disk image from configuration template.
 `git pull https://github.com/wirediq/build-opticnerve`
 
 ### Using the source:
-*Use `bash -vx ./scriptname.sh` to see what goes on internally*
 
 `pushd build-opticnerve`
 
