@@ -1,11 +1,17 @@
-# build-opticnerve # https://github.com/wirediq/build-opticnerve # By Loren <lharrington@wirediq.com> & Tom <ttijerina@wirediq.com>
-# The process is somewhat straightforward and takes approximately 10-20 minutes on a modern quad core CPU with 8 or more gigs of RAM.
-# It uses Hashicorp Packer to build an Optic Nerve guest/VM disk image, given a set of build parameters in a config file.
+# build-opticnerve
 
-# Getting the source:
-git pull https://github.com/wirediq/build-opticnerve # I think its obvious you might have done this already... but..
+Build OpticNerve VM disk image from configuration template.
 
-# Using the source: (Use 'bash -vx ./scriptname.sh' to see what goes on internally)
-pushd build-opticnerve
-./build.sh # To build the disk image for Optic Nerve
-./debug.sh # Launch test VM with the latest disk image
+## Getting the source:
+`git pull https://github.com/wirediq/build-opticnerve`
+
+### Using the source: (Use 'bash -vx ./scriptname.sh' to see what goes on internally)
+`pushd build-opticnerve`
+
+## Run these from the top level build-opticnerve directory
+
+### Build the disk image for Optic Nerve
+`./build.sh`
+
+### Launch test VM with the latest disk image
+`./debug.sh`
